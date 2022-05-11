@@ -1,0 +1,22 @@
+Package: evolveR
+Type: Package
+Title: Bed-Net Mixture Optimisation App 
+Version: 0.0.1
+Author: Philip Madgwick
+Maintainer:
+Description: 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: viridis 
+Imports: 
+Suggests: R version 4.0.3
+VignetteBuilder: 
+RoxygenNote: 
+Collate:
+    'run_simulation.R'
+    'calculate_optimum.R'
+    'plot_decay_curves.R'
+    'plot_optimal_dynamics.R'
+    'plot_optimality_landscape.R'
+    'plot_test_newAI.R'

@@ -1,0 +1,34 @@
+.shiny-notification{
+	position: fixed; 
+	opacity: 1 ;
+	top: 35% ;
+	left: 40% ;
+	height: 50px;
+	width: 300px
+}
+.side-label label.control-label {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.side-label > div > .form-group {
+	display: table-row;
+}
+.side-label .control-label {
+	width: 80px;
+}
+@media only screen and (min-width : 768px) {
+	.sim-settings {
+		margin-top: -178px;
+	}
+}
+.sim-button {
+	font-size: 110%;
+}
+.center-content > button {
+	display: block;
+	margin: 10px auto;
+}
+.bottom-space {
+	margin-bottom: 20px;
+}
