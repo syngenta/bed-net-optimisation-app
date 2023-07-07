@@ -4,3 +4,6 @@
 .Ruserdata
 
 rsconnect/*
+
+/tmp/*
+!/tmp/.gitkeep
