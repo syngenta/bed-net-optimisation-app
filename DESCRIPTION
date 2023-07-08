@@ -1,0 +1,25 @@
+Package: evolveR
+Type: Package
+Title: Bed-Net Mixture Optimisation App 
+Version: 0.0.1
+Authors@R: c(
+    person("Philip", "Madgwick", email = "philip.madgwick@syngenta.com", role = c("aut", "cre")))
+Description: Explore the predicted optimality of bed-nets in response to
+    variation in the loading of insecticides onto bed-nets, and the useable
+    lifespan of bed-nets in the number of years that they are used before
+    redeployment.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    viridis
+RoxygenNote:
+URL: https://github.com/syngenta/bed-net-optimisation-app
+BugReports: https://github.com/syngenta/bed-net-optimisation-app/issues
+Collate:
+    'run_simulation.R'
+    'calculate_optimum.R'
+    'plot_decay_curves.R'
+    'plot_optimal_dynamics.R'
+    'plot_optimality_landscape.R'
+    'plot_test_newAI.R'
