@@ -8,7 +8,7 @@ Description: Explore the predicted optimality of bed-nets in response to
     variation in the loading of insecticides onto bed-nets, and the useable
     lifespan of bed-nets in the number of years that they are used before
     redeployment.
-License: MIT + file LICENSE
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Depends:
